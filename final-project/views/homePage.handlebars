@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" charset="utf-8" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.runtime.js"></script>
+    <script src="/filterTemplate.js" charset="utf-8"></script>
+    <script src="/tripEntery.js" charset="utf-8"></script>
+
+    <!-- font stuff -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- commenting out header to put in into main.handlebars -->
+    <header class="main-header">
+      <div class="logo-image-container">
+        <img src="tripjournallogo.png" alt="Trip Journal: Your Travel Memories Online">
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <ul class="navlist">
+        <li class="navitem"><a href="/index.html">Home</a></li>
+        <li class="navitem"><a href="/gallery.html">Gallery</a></li>
+        <li class="navitem"><a href="/trip.html">Plan a Trip</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="page-description-container">
+        <p class="page-description">Welcome to the Trip Journal home page!
+          Here, you can view all your trips, remove them with the "X" button on
+          the top right, or view the locations on a map by pressing the trip
+          title button. </p>
+      </div>
+
+      {{> filter}}
+
+      <section id="trips">
+        {{#each tripData}}
+          {{> tripEntery}}
+        {{/each}}
+      </section>
+    </main>
+
+    <div id="modal-backdrop" class="hidden"></div>
+
+    <section id="modal" class="hidden">
+      <div class="modal-header">
+        <button type="button" id="modal-close" class="modal-hide-button">X</button>
+      </div>
+    </section>
+  </body>
+</html>
