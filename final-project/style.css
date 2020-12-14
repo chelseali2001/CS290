@@ -1,31 +1,67 @@
-/* NOT THE CSS THAT GETS USED!!!!!!!!!!!! */
+
 body {
   margin: 0;
-  /* font-family: 'Open Sans Condensed', sans-serif; */
+  font-family: 'Open Sans Condensed', sans-serif;
   font-family:sans-serif;
+  background-color: #9CC4F4;
 }
 
+/* Header and Nav bar */
 header {
   font-family: 'Open Sans Condensed', sans-serif;
+  padding: 20px;
+  justify-content:center;
+  background-color: #7AB4FB;
+}
+
+.logo-image-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 nav {
-  background-color: black;
+  background-color: #F2CBFC;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .navitem {
   display: inline-block;
+  justify-content: center;
   padding: 0 10px;
   font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none !important;
 }
 
 .navitem a{
   color: white;
 }
 
+/* page descriptions */
+.page-description-container {
+  width:auto;
+  height:auto;
+  color:white;
+  /* background-color:black; */
+  display: flex;
+  font-size: 20px;
+  justify-content:center;
+}
+.page-description {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-bottom: 0;
+}
+
+/* Trip cards */
 .cards {
+  font-family: 'Open Sans Condensed', sans-serif;
   display: inline-block;
-  border: 1px solid grey;
+  border: 1px solid;
+  border-color: white;
   margin: 10px;
   padding: 5px;
   width: 200px;
@@ -33,45 +69,41 @@ nav {
   background-color: #cae8d9;
 }
 
-p {
+/* remove trip button */
+.trip-remove-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.trip-remove {
+  border: none;
+}
+
+.trip-location {
   display: none;
-  padding-left: 20px;
-  font-size: 25px;
-  float: left;
-  max-width: 580px;
 }
 
 h1 {
   margin-left: 25px;
 }
 
-.filter-container {
-  display: inline-block;
-  min-width: 0%;
-  max-width: 200%;
-  margin-left: 25px;
-  padding: 20px;
-  border-radius: 3px;
-  background-color: #efefef;
+.trip-contents{
+  background-color: white;
+  padding: 7px;
+}
+.trip-info-container {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 5px;
 }
 
-.filter-input-container {
-  float: left;
-  margin: 10px 30px 0px 0px;
-}
-
-.filter-container h2 {
-  margin: 0;
-}
-
-.action-button {
-  margin-top: 10px;
+.trip-title {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .trip .trip-contents {
   width: 300px;
   height: 325px;
-  border: 1.5px solid #dddddd;
+  border: 1.5px solid white;
   border-radius: 5px;
   margin-top: 25px;
   margin-left: 25px;
@@ -80,22 +112,59 @@ h1 {
 }
 
 .trip .trip-contents .trip-image-container img {
-  width: 280px;
+  max-width: 280px;
   height: auto;
-  max-height: 250px;
+  max-height: 200px;
+  width: auto;
   margin-left: 10px;
   margin-top: 10px;
-  margin-bottom: 25px;
+
 }
 
 .trip .trip-contents .trip-info-container {
   margin-left: 10px;
-  font-family: Roboto;
 }
 
+
+/* filter stuff */
+.filter-container {
+  display: inline-block;
+  justify-content: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  min-width: 0%;
+  max-width: 200%;
+  margin-left: 25px;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 3px;
+  color: white;
+  background-color: #3C80D4;
+}
+
+.filter-input-container {
+  float: left;
+}
+
+.filter-container h2 {
+  margin: 0;
+}
+
+.filter-input-container {
+  margin: 10px 30px 0px 0px;
+}
+
+.action-button {
+  margin-top: 10px;
+}
+
+/* modal stuff */
 .hidden {
   display: none;
 }
+
+#hidden {
+  display: none;
+}s
 
 #modal-backdrop {
   position: fixed;
@@ -139,4 +208,81 @@ h1 {
   background: none;
   padding: 0px;
   cursor: pointer;
+}
+
+/* GALLERY */
+
+/* photo posts */
+.gallery-stuff-container {
+
+}
+
+.entire-slideshow-container {
+  display: flex;
+  justify-content: center;
+}
+
+.slideshow-container {
+  width:auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+
+}
+
+.photo-post {
+  display: block;
+  padding: 20px;
+  margin: 20px;
+  
+}
+
+.photo-post-image-container img {
+  max-width: 600px;
+  max-height: 600px;
+  margin: 10px;
+}
+
+.photo-caption-container {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  font-size: 22px;
+  /*margin: 10px;*/
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+}
+
+#previous-button {
+  font-size: 50px;
+  display: flex;
+  justify-content: left;
+  position: static;
+  margin: 30px;
+  color: white;
+}
+
+.previous-button:hover {
+
+}
+
+#next-button {
+  font-size: 50px;
+  display: flex;
+  justify-content: right;
+  position: static;
+  margin: 30px;
+  color: white;
+}
+
+.next-button:hover {
+
+}
+
+/* 404 */
+.error-container {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-left: 500px;
 }
