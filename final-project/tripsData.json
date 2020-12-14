@@ -1,0 +1,220 @@
+[
+  {
+    "tripPostImage": "https://cdn.pixabay.com/photo/2019/04/20/11/39/japan-4141578_1280.jpg",
+    "tripTitle": "Japan 2018",
+    "tripStartDate": "2018-10-03",
+    "tripEndDate": "2018-10-06",
+    "duration": "4",
+    "location": "Japan",
+    "latitude": "139.2394179",
+    "longitude": "36.5748441",
+    "destinations": [
+      [
+        "Tokyo Skytree"
+      ],
+      [
+        "Osaka Castle",
+        "Universal Studios Japan"
+      ],
+      [
+        "Kinkaku-ji"
+      ],
+      [
+        "Tokyo Tower",
+        "Tokyo Disneyland",
+        "Odaiba",
+        "Imperial Palace"
+      ]
+    ],
+    "images": [
+      "https://cdn.pixabay.com/photo/2017/02/05/15/04/zen-2040340_1280.jpg",
+      "https://cdn.pixabay.com/photo/2017/01/28/02/24/japan-2014619_1280.jpg",
+      "https://cdn.pixabay.com/photo/2020/01/31/07/10/billboards-4807268_1280.jpg",
+      "https://cdn.pixabay.com/photo/2015/02/23/16/38/okinawa-646182_1280.jpg"
+    ],
+    "mapImage": "https://cdn.discordapp.com/attachments/774177244197289987/786881585231822878/zSgAAAAASUVORK5CYII.png"
+  },
+  {
+    "tripPostImage": "https://cdn.pixabay.com/photo/2019/04/27/14/38/spring-4160136_1280.jpg",
+    "tripTitle": "Paris 2021",
+    "tripStartDate": "2021-05-11",
+    "tripEndDate": "2021-05-13",
+    "duration": "3",
+    "location": "France",
+    "latitude": "1.8883335",
+    "longitude": "46.603354",
+    "destinations": [
+      [
+        "Eiffel Tower",
+        "Lourve Museum"
+      ],
+      [
+        "Arc de Triomphe",
+        "Epicure Restaurant"
+      ]
+    ],
+    "images": [
+      "https://cdn.pixabay.com/photo/2017/08/02/21/20/paris-2573525_1280.jpg",
+      "https://cdn.pixabay.com/photo/2013/04/09/08/08/building-102110_1280.jpg",
+      "https://cdn.pixabay.com/photo/2017/07/15/13/45/french-restaurant-2506490_1280.jpg"
+    ],
+    "mapImage": "https://cdn.discordapp.com/attachments/774177244197289987/786881689799491584/XQE471sWbYkyA4GkcIHgaDEfZFNTdlzWjZ0smy5bIJy936nKX2XGit1UMrDfLWJQvsBSVWVjk1acdbR9Rhpwr6vOKLhbKOGd2AAA.png"
+  },
+  {
+    "tripPostImage": "https://cdn.pixabay.com/photo/2015/07/29/22/56/india-866692_1280.jpg",
+    "tripTitle": "India 2021",
+    "tripStartDate": "2021-06-12",
+    "tripEndDate": "2021-06-13",
+    "duration": "2",
+    "location": "India",
+    "latitude": "78.6677428",
+    "longitude": "22.3511148",
+    "destinations": [
+      [
+        "Taj Mahal"
+      ],
+      [
+        "Red Fort"
+      ]
+    ],
+    "images": [
+      "https://cdn.pixabay.com/photo/2020/06/14/15/55/landscape-5298395_1280.jpg",
+      "https://cdn.pixabay.com/photo/2013/08/05/06/21/sunset-169925_1280.jpg",
+      "https://cdn.pixabay.com/photo/2014/04/05/11/27/buffet-315691_1280.jpg"
+    ],
+    "mapImage": "https://cdn.discordapp.com/attachments/774177244197289987/786881815352180756/jyag7UErcYwAAAAABJRU5ErkJggg.png"
+  },
+  {
+    "tripPostImage": "https://cdn.pixabay.com/photo/2017/02/21/05/14/seattle-2084690_1280.jpg",
+    "tripTitle": "Seattle, WA",
+    "tripStartDate": "2020-12-03",
+    "tripEndDate": "2020-12-13",
+    "duration": "10",
+    "location": "Seattle, WA",
+    "latitude": "139.2394179",
+    "longitude": "36.5748441",
+    "destinations": [
+      [
+        "Tokyo Skytree"
+      ],
+      [
+        "Osaka Castle",
+        "Universal Studios Japan"
+      ],
+      [
+        "Kinkaku-ji"
+      ],
+      [
+        "Tokyo Tower",
+        "Tokyo Disneyland",
+        "Odaiba",
+        "Imperial Palace"
+      ]
+    ],
+    "images": [
+      "https://cdn.pixabay.com/photo/2017/07/24/13/42/seattle-2534690_1280.jpg",
+      "https://cdn.pixabay.com/photo/2014/04/19/21/07/seattle-328188_1280.jpg",
+      "https://cdn.pixabay.com/photo/2016/05/06/23/31/streetcar-1376899_1280.jpg"
+    ],
+    "mapImage": "https://cdn.discordapp.com/attachments/694276479835570188/786913125008932884/f8A6E5Ns3CJqmcAAAAASUVORK5CYII.png"
+  },
+  {
+    "tripPostImage": "https://cdn.pixabay.com/photo/2016/08/25/23/47/portland-1620953_1280.jpg",
+    "tripTitle": "Portland, OR",
+    "tripStartDate": "2020-1-05",
+    "tripEndDate": "2020-1-18",
+    "duration": "17",
+    "location": "Portland, OR",
+    "latitude": "139.2394179",
+    "longitude": "36.5748441",
+    "destinations": [
+      [
+        "Tokyo Skytree"
+      ],
+      [
+        "Osaka Castle",
+        "Universal Studios Japan"
+      ],
+      [
+        "Kinkaku-ji"
+      ],
+      [
+        "Tokyo Tower",
+        "Tokyo Disneyland",
+        "Odaiba",
+        "Imperial Palace"
+      ]
+    ],
+    "images": [
+      "https://cdn.pixabay.com/photo/2018/12/09/04/38/broadway-bridge-3864352_1280.jpg",
+      "https://cdn.pixabay.com/photo/2017/07/29/21/47/portland-2552793_1280.jpg"
+    ],
+    "mapImage": "https://cdn.discordapp.com/attachments/694276479835570188/786913349957976074/FyTvnRoATWEAAAAASUVORK5CYII.png"
+  },
+  {
+    "tripPostImage": "https://cdn.pixabay.com/photo/2016/03/09/09/43/hollywood-1245960_1280.jpg",
+    "tripTitle": "Los Angeles, CA",
+    "tripStartDate": "2019-2-18",
+    "tripEndDate": "2019-2-23",
+    "duration": "5",
+    "location": "Los Angeles, CA",
+    "latitude": "139.2394179",
+    "longitude": "36.5748441",
+    "destinations": [
+      [
+        "Tokyo Skytree"
+      ],
+      [
+        "Osaka Castle",
+        "Universal Studios Japan"
+      ],
+      [
+        "Kinkaku-ji"
+      ],
+      [
+        "Tokyo Tower",
+        "Tokyo Disneyland",
+        "Odaiba",
+        "Imperial Palace"
+      ]
+    ],
+    "images": [
+      "https://cdn.pixabay.com/photo/2017/08/25/09/19/los-angeles-2679490_1280.jpg",
+      "https://cdn.pixabay.com/photo/2014/10/22/17/34/los-angeles-498285_1280.jpg"
+    ],
+    "mapImage": "https://cdn.discordapp.com/attachments/694276479835570188/786913459790675978/IUwAAAABJRU5ErkJggg.png"
+  },
+  {
+    "tripPostImage": "https://cdn.pixabay.com/photo/2017/08/17/19/40/ukraine-2652561_1280.jpg",
+    "tripTitle": "New York City, Ukraine",
+    "tripStartDate": "2020-3-01",
+    "tripEndDate": "2020-3-15",
+    "duration": "14",
+    "location": "New York City, Ukraine",
+    "latitude": "139.2394179",
+    "longitude": "36.5748441",
+    "destinations": [
+      [
+        "Tokyo Skytree"
+      ],
+      [
+        "Osaka Castle",
+        "Universal Studios Japan"
+      ],
+      [
+        "Kinkaku-ji"
+      ],
+      [
+        "Tokyo Tower",
+        "Tokyo Disneyland",
+        "Odaiba",
+        "Imperial Palace"
+      ]
+    ],
+    "images": [
+      "https://cdn.pixabay.com/photo/2017/05/10/15/05/ukraine-2301044_1280.jpg",
+      "https://cdn.pixabay.com/photo/2015/04/13/09/23/ukraine-720233_1280.jpg"
+    ],
+    "mapImage": "https://cdn.discordapp.com/attachments/694276479835570188/786913620289257502/AcxPyUr9wrRHAAAAAElFTkSuQmCC.png"
+  }
+]
